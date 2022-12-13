@@ -10,6 +10,7 @@ import { Box, Button } from '@mui/material';
 
 
 function App() {
+  
   const [rows, setRows] = useState(documents1);
   const [currentDoc, setDoc] = useState('documents 1');
   const handleChangeRows = (docNum: number) => {
@@ -18,6 +19,7 @@ function App() {
       setDoc('documents 2');
       return;
     } 
+
     setRows(documents1);
     setDoc('documents 1');
   }
