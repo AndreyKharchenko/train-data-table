@@ -223,16 +223,7 @@ const DataTable: FC<IDataTable> = ({rows, columns, currentDoc}) => {
                     </TableBody>
             </Table>
         </TableContainer>
-        {/*<TablePagination
-          rowsPerPageOptions={[5, 10, 25]}
-          component="div"
-          count={rows.length}
-          rowsPerPage={1}
-          page={1}
-          onPageChange={() => {}}
-          onRowsPerPageChange={() => {}}
-                            />*/}
-
+        
         <Box className='table-footer'>
             <Box className='total-volume'>Общий обьем: {totalVolume}</Box>
             <Box className='total-qty'>Общее количество: {totalQty}</Box>
